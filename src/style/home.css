@@ -1,0 +1,53 @@
+.home {
+  text-align: center;
+  padding: 30px;
+  background: #fff;
+}
+
+.hero {
+  background: url("https://i.pinimg.com/1200x/02/0a/a1/020aa191a471a7d5e6c3d393da575ed8.jpg");
+  height: 400px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-btn {
+  margin-top: 15px;
+  background-color: #e63946;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.home-categories {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.category-card {
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  color: white;
+}
+
+.veg {
+  background: #2a9d8f;
+}
+
+.nonveg {
+  background: #ef233c;
+}

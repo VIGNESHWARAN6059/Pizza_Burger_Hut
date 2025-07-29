@@ -1,0 +1,20 @@
+.admin-panel {
+  text-align: center;
+  padding: 50px;
+}
+
+.admin-actions {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.admin-link {
+  background: #457b9d;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+}

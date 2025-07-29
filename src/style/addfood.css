@@ -1,0 +1,36 @@
+.add-food {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+.add-food h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.food-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.food-form input,
+.food-form select {
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.food-form button {
+  background: #e63946;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}

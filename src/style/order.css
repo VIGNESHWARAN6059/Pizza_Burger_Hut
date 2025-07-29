@@ -1,0 +1,57 @@
+.orders-page {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.order-food-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 12px;
+}
+
+.order-item-details {
+  flex-grow: 1;
+}
+
+.order-total {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.status {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.status.pending {
+  color: orange;
+}
+.status.completed {
+  color: green;
+}
+.status.cancelled {
+  color: red;
+}
